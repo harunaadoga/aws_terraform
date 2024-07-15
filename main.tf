@@ -17,7 +17,7 @@ provider "aws" {
 resource "aws_budgets_budget" "Monthly_budget"{
  name              = "prod_budget"
  budget_type	   = "COST"
- limit_amount      = "5.00"
+ limit_amount      = "0.00"
  limit_unit        = "USD"
  time_unit         = "MONTHLY"
  time_period_start = "2022-08-25_00:01"
